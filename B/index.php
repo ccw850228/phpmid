@@ -5,7 +5,8 @@
 <input type="number" name="two"><br/>
 </form>
 <?php
-$c=1;
+$c=0;
+$d=0;
 function add(&$a,&$b){
 return $a+$b;
 }
@@ -25,9 +26,21 @@ $c=$c*$a;
 }
 return $c
 }
-function b3(&$a,&$b){
-if(($a+$b)*($a+$b)=="$a$b"){
-return $a,$b;
+function b3(&$a){
+
+$c=$a/100;
+$d=$a%100;
+if(($c+$d)*(($c+$d)}==$a){
+	return $a;
+else if {
+	$c=$a/10;
+	$d=$a%10;}
+	if((($c+$d)*(($c+$d)}==$a)){
+	return $a;
+
+	}
+
+}
 }
 }
 	
