@@ -23,9 +23,13 @@ for($i=0;$i<=$b;$i++){
 $c=$c*$a;
 
 }
+return $c
 }
 function b3(&$a,&$b){
-
+if(($a+$b)*($a+$b)=="$a$b"){
+return $a,$b;
+}
+}
 	
 }
 
